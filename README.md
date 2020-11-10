@@ -25,15 +25,13 @@ It also provides code that implements a variety of useful design concepts, inclu
 * Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
 * Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
 * Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-*
-![](images/home-page.png)
+
 
 ### Add Project page
 
 Once you are logged in, you can define new projects with the Add Project page:
 
 ![](images/add-project-page.png)
-
 
 ### Filter page
 
