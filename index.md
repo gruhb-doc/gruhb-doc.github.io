@@ -25,7 +25,7 @@ As stated as the first goal of the project, the system should eventually provide
 
 ## User Guide
 
-This section provides a walkthrough of the Gruhb Doc user interface and its capabilities.
+This section provides a walkthrough of the planned user interface for Gruhb Doc.
 
 ### Landing Page
 
