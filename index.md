@@ -1,4 +1,4 @@
-# gruhb-doc.github.io
+# Gruhb
 
 ## Table of contents
 
