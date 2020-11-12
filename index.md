@@ -7,7 +7,7 @@
 
 ## Overview
 
-Gruhb doc is a web application that provides available food vendors and menu items for UH Manoa.
+Gruhb is a web application that provides available food vendors and menu items for UH Manoa.
 
 - [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 - [React](https://reactjs.org/) for component-based UI implementation and routing.
