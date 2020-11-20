@@ -1,4 +1,4 @@
-# Gruhb
+# [Gruhb](http://178.128.184.132)
 
 ## Table of contents
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-Gruhb is a web application that provides available food vendors and menu items for UH Manoa.
+Gruhb is a web application that provides available food vendors and menu items for UH Manoa. [Visit the website here](http://178.128.184.132).
 
 - [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
 - [React](https://reactjs.org/) for component-based UI implementation and routing.
@@ -21,25 +21,57 @@ The goals of the project are:
 - Learn how to work on a project with a group of people.
 - Gain experience with project management (i.e. Git, issues, branches, etc.).
 
-As stated as the first goal of the project, the system should eventually provide an easy-to-use tool for anyone who finds themselves on the UH Manoa campus and need to find a place to eat.
+As stated as the first goal of the project, the system will provide an easy-to-use tool for anyone who finds themselves on the UH Manoa campus and need to find a place to eat.
 
-## User Guide
+## Milestone 1 (DONE):
 
-This section provides a walkthrough of the planned user interface for Gruhb Doc.
+Visit the Milestone 1 project board [here](https://github.com/gruhb-doc/gruhb-doc/projects/1).
+
+- In this milestone, we created the landing page of the web app and deployed the project to [Digital Ocean](https://www.digitalocean.com/).
+- This milestone was mainly about getting the web app started, getting familiar with **issues driven project management**, and learning how to use [GitHub's Automated Kanban project board](https://github.com/gruhb-doc/gruhb-doc/projects/1).
+
+## Milestone 2 (IN PROGRESS):
+
+Visit the Milestone 2 project board [here](https://github.com/gruhb-doc/gruhb-doc/projects/2).
+
+- This milestone is currently in progress.
+- In this milestone, we will be creating the majority of [Gruhb's](http://178.128.184.132) functionality such as logging in, signing up, querying databases, etc.
+
+## Milestone 3 (TBA):
+
+- In this milestone, the current projection is that this will be for final touches and extra features.
+
+# User Guide
+
+This section provides a walkthrough of the user interface for Gruhb.
 
 ### Landing Page
 
-The landing page is presented to users when they visit the top-level URL to the site. We plan to use [Yelp's](https://www.yelp.com) home page as a basis for the overall layout and design.
+The [landing page](http://178.128.184.132) is presented to users when they visit the top-level URL to the site. We based our design and layout on [Yelp's](https://www.yelp.com) home page. [See it live here](http://178.128.184.132).
 
-### Sign in and sign up
+![](images/M1_Deploy.png)
 
-The user will be able to “Login” or “Sign Up” on the top right corner of the page. We will once again be using [Yelp's](https://www.yelp.com) homepage as a basis for designing the layout of the user account functionality.
+#### With footer:
+
+![](images/M1_Deploy_2.png)
+
+---
+
+## **The following page descriptions are currently design inspirations and in progress for [Milestone 2](https://github.com/gruhb-doc/gruhb-doc/projects/2).**
+
+---
+
+### Log In and Sign Up Page
+
+The user will be able to “Login” or “Sign Up” on the top right corner of the page. We will once again be using [Yelp's](https://www.yelp.com) homepage and sign up page as a basis for designing the layout of the user account functionality.
 
 ![](images/landing.png)
+This design pertains to both the log in and sign up page:
+![](images/yelp_signup.png)
 
-### Home page (Vendors, Profile, Favorites)
+### Home Page (Vendors, Profile, Favorites)
 
-The user home page of Gruhb Doc will allow the user to navigate through three different pages, the vendors, profile, and favorites. We will be basing this design off of [Pioneer Saloon’s](http://www.pioneer-saloon.net) website. On the home page, the user will also see the top pick of the day.
+The user home page of Gruhb will allow the user to navigate through three different pages, the vendors, profile, and favorites. We will be basing this design off of [Pioneer Saloon’s](http://www.pioneer-saloon.net) website. On the home page, the user will also see the top pick of the day.
 
 ![](images/homepage.png)
 
