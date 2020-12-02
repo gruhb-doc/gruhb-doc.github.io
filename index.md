@@ -69,7 +69,7 @@ This section provides a walkthrough of the user interface for Gruhb.
 
 ### Landing Page
 
-The [landing page](http://178.128.184.132) is presented to users when they visit the top-level URL to the site. We based our design and layout on [Yelp's](https://www.yelp.com) home page. [See it live here](http://178.128.184.132).
+The landing page is presented to users when they visit the top-level URL to the site. We based our design and layout on [Yelp's](https://www.yelp.com) home page.
 
 ![](images/M1_Deploy.png)
 
