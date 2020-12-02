@@ -7,7 +7,9 @@
 - [Overview](#overview)
 - [Deployed Website](#deployed-website)
 - [User Guide](#user-guide)
-- [Developer Guide](#-developer-guide)
+- [Build Process](#build-process)
+- [Developer Guide](#developer-guide)
+- [The Team](#the-team)
 
 ## Overview
 
@@ -33,6 +35,8 @@ As stated as the first goal of the project, the system will provide an easy-to-u
 
 ---
 
+# Build Process
+
 ## Milestone 1 (DONE):
 
 [Visit the Milestone 1 project board here](https://github.com/gruhb-doc/gruhb-doc/projects/1).
@@ -44,14 +48,18 @@ As stated as the first goal of the project, the system will provide an easy-to-u
 
 [Visit the Milestone 2 project board here](https://github.com/gruhb-doc/gruhb-doc/projects/2).
 
-- This milestone is currently in progress.
-- In this milestone, we will be creating the majority of [Gruhb's](http://178.128.184.132) functionality such as logging in, signing up, querying databases, etc.
+- In this milestone, we created our main pages for the web app.
+- We created the Log In, Sign Up, Sign Out, Home Page, and Vendor pages.
+- We were also met with some difficulty setting up our data schema and figuring out how to properly store data from a form. We were not able to get our data collections working in time before this milestone has ended.
 
 ## Milestone 3 (IN PROGRESS):
 
 [Visit the Milestone 3 project board here](https://github.com/gruhb-doc/gruhb-doc/projects/4).
 
-- In this milestone, the current projection is that this will be for final touches and extra features.
+- In this milestone, we will be finishing up the web app as a whole.
+- We will be adding an About Us page and a filtering feature for the home page vendor feed.
+- We will be adding finishing touches.
+- We will have a working data collection and the Vendor page will no longer show the mockup data.
 
 # User Guide
 
@@ -67,31 +75,38 @@ The [landing page](http://178.128.184.132) is presented to users when they visit
 
 ![](images/M1_Deploy_2.png)
 
----
+### Log In, Sign Up, and Sign Out Page
 
-## **The following page descriptions are currently design inspirations and in progress for [Milestone 2](https://github.com/gruhb-doc/gruhb-doc/projects/2).**
+The user will be able to “Login”, “Sign Up”, or "Sign Out" on the top right corner of the page. All three pages generally follow the same design.
 
----
+**Log In**
+![](images/gruhb_signin.png)
 
-### Log In and Sign Up Page
+**Sign Up**
+![](images/gruhb_signup.png)
 
-The user will be able to “Login” or “Sign Up” on the top right corner of the page. We will once again be using [Yelp's](https://www.yelp.com) homepage and sign up page as a basis for designing the layout of the user account functionality.
-
-![](images/landing.png)
-This design pertains to both the log in and sign up page:
-![](images/yelp_signup.png)
+**Sign Out**
+![](images/gruhb_signout.png)
 
 ### Home Page (Vendors, Profile, Favorites)
 
-The user home page of Gruhb will allow the user to navigate through three different pages, the vendors, profile, and favorites. We will be basing this design off of [Pioneer Saloon’s](http://www.pioneer-saloon.net) website. On the home page, the user will also see the top pick of the day.
+The user home page of Gruhb will allow the user to access the vendors feed (seen right when the user logs in), profile page, and favorites page. Due to personal time contraints, this page is not yet finalized. In the final version, we will have a feed of vendor cards that users can click on to view more details.
 
-![](images/homepage.png)
+![](images/gruhb_userhome.png)
 
-### Vendors
+### Vendor
 
-The Vendors page will be presented in a feed type of format. Users will be able to filter the page and favorite a vendor from the list of vendors. We will be basing this design off of [Yelp's](https://www.yelp.com) feed design.
+After a user clicks on a vendor card from the user's home page feed, the Vendor page will be displayed and the details of the vendors like the hours, menu, cuisine etc. will be shown to the user. **Currently we are displaying mockup data because we were not able to get our data collection working properly in time**
 
-![](images/feed.png)
+**Part 1**
+![](images/gruhb_vendorpg_1.png)
+
+**Part 2**
+![](images/gruhb_vendorpg_2.png)
+
+---
+
+## **The following pages are still in progress (will be done for Milestone 3). Due to personal time constraints we were not able to finish these pages yet. We were having difficulties setting up our data schema and making sure the data is properly stored and displayed.**
 
 ### Profile page
 
@@ -104,12 +119,6 @@ Once the user is logged in, they will be able to access a profile page where the
 The Favorites page will be once again presented in a feed type of format. Users will be able to see a feed of their favorite vendors for easy access. We will be basing this design off of [Instagram's](https://www.instagram.com) feed design.
 
 ![](images/ig_feed.png)
-
-### Vendor
-
-After a user clicks on a vendor from the Vendors page, the Vendor page will be displayed and the details of the vendors like the hours, menu, cuisine etc. will be shown to the user. We will be basing this design off of [Yelp's](https://www.yelp.com) vendor page design.
-
-![](images/vendor.png)
 
 ---
 
@@ -202,3 +211,19 @@ You can verify that the code obeys our coding standards by running ESLint over t
 ```
 meteor npm run lint
 ```
+
+---
+
+# The Team
+
+### **Jackie Wong**
+
+I am currently enrolled in his third year at the University of Hawaii at Manoa and pursuing a Bachelor of Science in Computer Science. I plan to get into software development or engineering, and full-stack web development. [You can learn more about me here!](https://jackiewong99.github.io/)
+
+### **Samuel Han**
+
+I am currently in my senior year at the University of Hawaii at Manoa and am double majoring in Biology and Computer Science. I am planning on getting into mobile development. [You can learn more about me here!](https://samuelcy.github.io/)
+
+### **Adrian Tam**
+
+I am currently enrolled at the University of Hawaii at Manoa and am majoring in Computer Science. [You can learn more about me here!](https://adrianwtam.github.io/)
