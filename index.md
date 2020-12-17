@@ -102,7 +102,7 @@ The user home page of Gruhb will allow the user to access the vendors feed (seen
 
 ### Vendor
 
-After a user clicks on a vendor card from the user's home page feed, the Vendor page will be displayed and the details of the vendors like the hours, menu, cuisine etc. will be shown to the user. **Currently we are displaying mockup data because we were not able to get our data collection working properly in time. As of now, this page can be accessed at the "/vendor" URL route. The final version of this project will require a data document ID in the URL**
+After a user clicks on a vendor card from the user's home page feed, the Vendor page will be displayed and the details of the vendors like the hours, menu, cuisine etc. will be shown to the user.
 
 **Part 1**
 ![](images/gruhb_vendorpg_1.png)
