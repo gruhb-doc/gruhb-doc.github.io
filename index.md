@@ -9,6 +9,7 @@
 - [User Guide](#user-guide)
 - [Build Process](#build-process)
 - [Developer Guide](#developer-guide)
+- [Feedback](#feedback)
 - [The Team](#the-team)
 
 ## Overview
@@ -213,6 +214,18 @@ You can verify that the code obeys our coding standards by running ESLint over t
 ```
 meteor npm run lint
 ```
+
+---
+
+# Feedback
+
+1. Have a map.
+2. Have a feature that tells you which vendors are closest to you.
+3. More features.
+4. Implement money usage.
+5. User reviews i.e. "Food Item: Food Item Review".
+6. Front page needs more functionality.
+7. Whole application is bare.
 
 ---
 
