@@ -54,14 +54,17 @@ As stated as the first goal of the project, the system will provide an easy-to-u
 - We created the Log In, Sign Up, Sign Out, Home Page, and Vendor pages.
 - We were also met with some difficulty setting up our data schema and figuring out how to properly store data from a form. We were not able to get our data collections working in time before this milestone has ended.
 
-## Milestone 3 (IN PROGRESS):
+## Milestone 3 (DONE):
 
 [Visit the Milestone 3 project board here](https://github.com/gruhb-doc/gruhb-doc/projects/4).
 
-- In this milestone, we will be finishing up the web app as a whole.
-- We will be adding an About Us page and a filtering feature for the home page vendor feed.
-- We will be adding finishing touches.
-- We will have a working data collection and the Vendor page will no longer show the mockup data.
+- In this milestone, we finalized all of the pages, got our data schema working, and added a couple of features from Milestone 2.
+- Added an Add Vendor and Edit Vendor page to provide a more dynamic listing of the vendors.
+- Added an About Us page that provides a brief biography of each team member.
+- Added finishing styling touches to the Home Page and Vendor pages. We also made styling updates to the footer, to match the styling of the header (nav-bar).
+- Created a working data schema and no longer displayed placeholder mock-up data for the Vendor page.
+- From creating a working data schema, this allowed us to create a feed style of vendor cards for the user's home page (much like Instagram, where the user's home page is a feed of posts).
+- We realized that due to the nature of our idea of this project, we decided that a profile page is not necessary.
 
 # User Guide
 
@@ -106,21 +109,44 @@ After a user clicks on a vendor card from the user's home page feed, the Vendor 
 **Part 2**
 ![](images/gruhb_vendorpg_2.png)
 
----
+**Part 3**
+![](images/gruhb_vendorpg_3.png)
 
-## **The following pages are still in progress (will be done for Milestone 3). Due to personal time constraints we were not able to finish these pages yet. We were having difficulties setting up our data schema and making sure the data is properly stored and displayed.**
+### Add Vendor
 
-### Profile page
+The Add Vendor page allows the user to add a new vendor to the website if there is a newly open vendor on campus.
 
-Once the user is logged in, they will be able to access a profile page where they can edit their personal information. We will be basing this design off of [Instagram’s](https://www.instagram.com) edit profile design.
+**Part 1**
+![](images/gruhb_add-pg_1.png)
 
-![](images/profile.png)
+**Part 2**
+![](images/gruhb_add-pg_2.png)
 
-### Favorites
+### Edit Vendor
 
-The Favorites page will be once again presented in a feed type of format. Users will be able to see a feed of their favorite vendors for easy access. We will be basing this design off of [Instagram's](https://www.instagram.com) feed design.
+The Edit Vendor page allows the user to edit an exisiting vendor's information.
 
-![](images/ig_feed.png)
+**Part 1**
+![](images/gruhb_editpg_1.png)
+
+**Part 2**
+![](images/gruhb_editpg_2.png)
+
+### About Us
+
+The About Us page provides a brief biography for each team member.
+
+![](images/gruhb_about.png)
+
+### Matching Nav Bar and Footer
+
+As part of Milestone 3, we made styling changes to the footer and made it match to the styling of the Nav Bar.
+
+**Nav Bar :**
+![](images/gruhb_navbar.png)
+
+**Footer :**
+![](images/gruhb_footer.png)
 
 ---
 
