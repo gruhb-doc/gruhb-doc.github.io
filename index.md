@@ -9,7 +9,7 @@
 - [User Guide](#user-guide)
 - [Build Process](#build-process)
 - [Developer Guide](#developer-guide)
-- [Feedback](#community-feedback)
+- [Community Feedback](#community-feedback)
 - [The Team](#the-team)
 
 ## Overview
