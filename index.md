@@ -9,7 +9,7 @@
 - [User Guide](#user-guide)
 - [Build Process](#build-process)
 - [Developer Guide](#developer-guide)
-- [Feedback](#feedback)
+- [Feedback](#community-feedback)
 - [The Team](#the-team)
 
 ## Overview
@@ -243,7 +243,7 @@ meteor npm run lint
 
 ---
 
-# Feedback
+# Community Feedback
 
 1. Have a map.
 2. Have a feature that tells you which vendors are closest to you.
